@@ -7,8 +7,8 @@ class Dog
     @dogname
   end
 
-  def name=(name)
-    @name = name
+  def name=(dogname)
+    @name = dogname
   end
 end
 lab = Dog.new("Labrador")
