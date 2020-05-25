@@ -10,6 +10,18 @@ class Dog
   def name=(dogname)
     @name = dogname
   end
+  def initialize(dogbreed)
+    @breed = dogbreed
+  end
+
+  def breed
+    @breed
+  end
+
+  def name=(dogbreed)
+    @breed = dogbreed
+  end
 end
 lab = Dog.new("Labrador")
-lab.name
+lab.breed = 'yellow'
+lab.breed
